@@ -81,7 +81,7 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 
 ## Examples
 
-### Call-Response
+### Calls-Responses
 
 ```text
 A  : [1 b3 4]
@@ -94,6 +94,26 @@ Songs:
 * Chorus of "Hallelujah" (Leonard Cohen)
 * Chorus of "It Is Well" (Bethel Music, Kristene DiMarco)
 * Verse of "Way Maker" (Leeland)
+
+```text
+A  : [1 b2 3]
+A← : [3 b2 1]
+
+[A? A←!]
+```
+
+Songs:
+* Verse of "Worthy" (CeCe Winans)
+
+```text
+A  : [1 2 3]
+A← : [3 2 1]
+
+[A? A←!]
+```
+
+Songs:
+* Verse and guitar riffs of "45" (Shinedown)
 
 ### The Terminator Theme
 
