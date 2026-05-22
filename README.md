@@ -94,32 +94,19 @@ Songs:
 * Chorus of "It Is Well" (Bethel Music, Kristene DiMarco)
 * Verse of "Way Maker" (Leeland)
 
-### Awesome God
-
-"Awesome God" (Rich Mullins):
-
-```text
-A  : [1 1 1 2 b3 b7↓ 5↓]
-B  : [4 4 2 b3 b3 2 1]
-A' : [b7↓ 1 2 b3 b7↓ 5↓]
-B' : [4 4 5 4 b3 2 1]
-
-[A? B! A'~ B'=]
-```
-
 ### The Terminator Theme
 
 "The Terminator Theme" (Brad Fiedel):
 
 ```text
-A  : [1 2 b3]
-B  : [2 b7↓ b3↓]
-C  : [2 b7↓ 5 4]
-D  : [2 b7↓ 4↓]
-E  : [b3↓ 1↓]
-E' : [b3↓ 2↓ 1↓]
+A : [1 2 b3]
+B : [2 b7↓ b3↓]
+B : [2 b7↓ 5 4]
+B : [2 b7↓ 4↓]
+A : [b3↓ 1↓]
+A : [b3↓ 2↓ 1↓]
 
-[A? B! A? C! A? D! E~ E'=]
+[A? B! A? B'! A? B'! A←> A←=]
 ```
 
 ## Quick Reference
