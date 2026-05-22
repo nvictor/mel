@@ -84,7 +84,8 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 ### Call-Response
 
 ```text
-A : [1 b3 4]
+A  : [1 b3 4]
+A← : [4 b3 1]
 
 [A? A←!]
 ```
@@ -99,12 +100,12 @@ Songs:
 "The Terminator Theme" (Brad Fiedel):
 
 ```text
-A : [1 2 b3]
-B : [2 b7↓ b3↓]
-B : [2 b7↓ 5 4]
-B : [2 b7↓ 4↓]
-A : [b3↓ 1↓]
-A : [b3↓ 2↓ 1↓]
+A  : [1 2 b3]
+B  : [2 b7↓ b3↓]
+B' : [2 b7↓ 5 4]
+B' : [2 b7↓ 4↓]
+A← : [b3↓ 1↓]
+A← : [b3↓ 2↓ 1↓]
 
 [A? B! A? B'! A? B'! A←> A←=]
 ```
