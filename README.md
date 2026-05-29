@@ -112,8 +112,18 @@ A← : [3 2 1]
 [A? A←!]
 ```
 
-Songs:
-* Verse and guitar riffs of "45" (Shinedown)
+### Asian Theme
+
+```text
+A  : [4 5 4 b3 1]
+```
+
+### Dexter's Laboratory
+
+```text
+A  : [1 2 3 4 3 1 b7↓]
+A' : [1 2 3 4 3 2 1]
+```
 
 ### The Terminator Theme
 
@@ -129,6 +139,16 @@ A← : [b3↓ 2↓ 1↓]
 
 [A? B! A? B'! A? B'! A←> A←=]
 ```
+
+### Parallel movements
+
+```text
+A : [1 4 b4]
+B : [7↓ 2 1]
+```
+
+Songs:
+*  Italian folklore (Looney Tunes)
 
 ## Quick Reference
 
