@@ -150,7 +150,7 @@ B : [7↓ 2 1]
 Songs:
 *  Italian folklore (Looney Tunes)
 
-### Leap peak and descent
+### Leap peak descent
 
 ```text
 A : [1 1 5 5 6 6 5]
@@ -160,9 +160,19 @@ B : [4 4 3 3 2 2 1]
 Songs:
 * Alphabet Song
 * Twinkle Twinkle
-* Wonderful World's opening verse (Louis Armstrong)
+* Opening Verse of Wonderful World's (Louis Armstrong)
 
-### Anticipation and foward movement
+### Leap back descent
+
+```text
+A : [1 5 1]
+B : [4 3 2]
+```
+
+Songs:
+* Opening Verse of Can't help falling in love with You's (Elvis Presley)
+
+### Anticipated ascent
 
 ```text
 A : [1 1 1 1 1 1]
