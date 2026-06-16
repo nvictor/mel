@@ -81,7 +81,7 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 
 ## Examples
 
-### Calls-Responses
+### Calls-Responses / Ascent and back
 
 ```text
 A  : [1 b3 4]
@@ -104,13 +104,6 @@ A← : [3 b2 1]
 
 Songs:
 * Verse of "Worthy" (CeCe Winans)
-
-```text
-A  : [1 2 3]
-A← : [3 2 1]
-
-[A? A←!]
-```
 
 ### Asian Theme
 
