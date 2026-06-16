@@ -150,6 +150,28 @@ B : [7↓ 2 1]
 Songs:
 *  Italian folklore (Looney Tunes)
 
+### Leap peak and descent
+
+```text
+A : [1 1 5 5 6 6 5]
+B : [4 4 3 3 2 2 1]
+```
+
+Songs:
+* Alphabet Song
+* Twinkle Twinkle
+* Wonderful World's opening verse (Louis Armstrong)
+
+### Anticipation and foward movement
+
+```text
+A : [1 1 1 1 1 1]
+B : [1 1 7↓ 1 2 3]
+```
+
+Songs:
+* Wonderful World's second verse (Louis Armstrong)
+
 ## Quick Reference
 
 - `A : [1 b3 4]`: Define motif `A`.
