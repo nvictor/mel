@@ -81,7 +81,7 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 
 ## Examples
 
-### Calls-Responses / Ascent and back
+### Call and Response / Ascent and Descent
 
 ```text
 A  : [1 b3 4]
@@ -105,18 +105,14 @@ A← : [3 b2 1]
 Songs:
 * Verse of "Worthy" (CeCe Winans)
 
-### Asian Theme
+### Ascent, Peak, Descent
 
 ```text
-A  : [4 5 4 b3 1]
+A  : [1 b3 5 b6 5 b3 1]
 ```
 
-### Dexter's Laboratory
-
-```text
-A  : [1 2 3 4 3 1 b7↓]
-A' : [1 2 3 4 3 2 1]
-```
+Songs:
+* Verse of "Dexter's Laboratory"
 
 ### The Terminator Theme
 
@@ -133,7 +129,7 @@ A← : [b3↓ 2↓ 1↓]
 [A? B! A? B'! A? B'! A←> A←=]
 ```
 
-### Parallel movements
+### Parallel Movements
 
 ```text
 A : [1 4 b4]
@@ -143,7 +139,7 @@ B : [7↓ 2 1]
 Songs:
 *  Italian folklore (Looney Tunes)
 
-### Leap peak descent
+### Leap, Peak and Descent
 
 ```text
 A : [1 1 5 5 6 6 5]
@@ -155,7 +151,13 @@ Songs:
 * Twinkle Twinkle
 * Opening Verse of Wonderful World's (Louis Armstrong)
 
-### Leap back descent
+### Peak and Descent / Asian Theme
+
+```text
+A  : [4 5 4 b3 1]
+```
+
+### Leap, Back, and Descent
 
 ```text
 A : [1 5 1]
@@ -165,7 +167,7 @@ B : [4 3 2]
 Songs:
 * Opening Verse of Can't help falling in love with You's (Elvis Presley)
 
-### Anticipated ascent
+### Anticipated Ascent
 
 ```text
 A : [1 1 1 1 1 1]
