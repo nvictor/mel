@@ -83,7 +83,7 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 
 ### Call/Response
 
-[Minor Skip, Major Step][Major Step, Minor Skip]
+`[Minor Skip, Major Step][Major Step, Minor Skip]`
 
 ```text
 A  : [1 b3 4]
@@ -97,7 +97,7 @@ Songs:
 * Chorus of "It Is Well" (Bethel Music, Kristene DiMarco)
 * Verse of "Way Maker" (Leeland)
 
-[Minor Step, Major Step][Major Step, Minor Step]
+`[Minor Step, Major Step][Major Step, Minor Step]`
 
 ```text
 A  : [1 b2 3]
@@ -111,7 +111,7 @@ Songs:
 
 ### Bell (Arch)
 
-[Minor Skip, Major Skip, Minor Second, Minor Second, Major Skip, Minor Skip]
+`[Minor Skip, Major Skip, Minor Second, Minor Second, Major Skip, Minor Skip]`
 
 ```text
 A  : [1 b3 5 b6 5 b3 1]
@@ -120,7 +120,7 @@ A  : [1 b3 5 b6 5 b3 1]
 Songs:
 * Verse of "Dexter's Laboratory"
 
-[Minor Skip, Major Step, Major Step, Major Step, Minor Skip]
+`[Minor Skip, Major Step, Major Step, Major Step, Minor Skip]`
 
 ```text
 A  : [1 b3 4 5 4 b3 1]
@@ -131,7 +131,7 @@ Songs:
 
 ### Broken Bell (Arch)
 
-[Leap, Major Step, Major Step]Major Step[Minor Step, Major Step, Major Step]
+`[Leap, Major Step, Major Step]Major Step[Minor Step, Major Step, Major Step]`
 
 ```text
 A : [1 1 5 5 6 6 5]
