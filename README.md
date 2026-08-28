@@ -175,6 +175,34 @@ A' : [2 2 2 1 b3]
 Songs:
 * Rhythm in The Dance of Kashani (Joe Stump)
 
+### Akatsuki Theme
+
+```text
+A : [1 5 4 b6 4 5]
+B : [b3 4 5 4 2 1]
+```
+
+### Viens On S'arrange
+
+```text
+A : [b3 2 b3 4 5 b6 5]
+B : [4 5 b6 2 b3 4 b3]
+```
+
+### Dies Irae
+
+```text
+A : [b3 2 b3 1 2 7↓ 1 1]
+```
+
+### Ascent, Peak, Back up
+
+`[Major Skip, Major Skip, Major Second, Major Second, Major Skip, Major Skip]`
+
+```text
+A : [1 3 5 6 5 3 5]
+```
+
 ### The Terminator Theme
 
 "The Terminator Theme" (Brad Fiedel):
