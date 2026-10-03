@@ -83,8 +83,6 @@ Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
 
 ### Call/Response
 
-`[Minor Skip, Major Step][Major Step, Minor Skip]`
-
 ```text
 A  : [1 b3 4]
 A← : [4 b3 1]
@@ -97,8 +95,6 @@ Songs:
 * Chorus of "It Is Well" (Bethel Music, Kristene DiMarco)
 * Verse of "Way Maker" (Leeland)
 
-`[Minor Step, Major Step][Major Step, Minor Step]`
-
 ```text
 A  : [1 b2 3]
 A← : [3 b2 1]
@@ -109,9 +105,7 @@ A← : [3 b2 1]
 Songs:
 * Verse of "Worthy" (CeCe Winans)
 
-### Bell (Arch)
-
-`[Minor Skip, Major Skip, Minor Second, Minor Second, Major Skip, Minor Skip]`
+### Bell/Arch
 
 ```text
 A  : [1 b3 5 b6 5 b3 1]
@@ -120,8 +114,6 @@ A  : [1 b3 5 b6 5 b3 1]
 Songs:
 * Verse of "Dexter's Laboratory"
 
-`[Minor Skip, Major Step, Major Step, Major Step, Minor Skip]`
-
 ```text
 A  : [1 b3 4 5 4 b3 1]
 ```
@@ -129,9 +121,7 @@ A  : [1 b3 4 5 4 b3 1]
 Songs:
 * Asian Folklores
 
-### Broken Bell (Arch)
-
-`[Leap, Major Step, Major Step]Major Step[Minor Step, Major Step, Major Step]`
+### Broken Bell/Arch
 
 ```text
 A : [1 1 5 5 6 6 5]
@@ -143,37 +133,6 @@ Songs:
 * Twinkle Twinkle
 * Opening Verse of Wonderful World's (Louis Armstrong)
 
-### ?? Leap
-
-```text
-A : [1 5 1]
-B : [2 3 4 3 2]
-C : [↓6 ↓7 1 2 3 4]
-D : [3 2 1]
-```
-
-Songs:
-* Verse Can't help falling in love with You's (Elvis Presley)
-
-### Anticipated Ascent
-
-```text
-A : [1 1 1 1 1 1]
-B : [1 1 7↓ 1 2 3]
-```
-
-Songs:
-* Wonderful World's second verse (Louis Armstrong)
-
-### Anticipated Skip Around
-
-```text
-A  : [2 2 2 b3 1]
-A' : [2 2 2 1 b3]
-```
-
-Songs:
-* Rhythm in The Dance of Kashani (Joe Stump)
 
 ### Akatsuki Theme
 
@@ -193,14 +152,6 @@ B : [4 5 b6 2 b3 4 b3]
 
 ```text
 A : [b3 2 b3 1 2 7↓ 1 1]
-```
-
-### Ascent, Peak, Back up
-
-`[Major Skip, Major Skip, Major Second, Major Second, Major Skip, Major Skip]`
-
-```text
-A : [1 3 5 6 5 3 5]
 ```
 
 ### The Terminator Theme
