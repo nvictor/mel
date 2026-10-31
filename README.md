@@ -1,5 +1,5 @@
 # Melodic Engineering Language (MEL)
-**Version:** 1.1.0
+**Version:** 2.0.0
 
 MEL describes melodies as motifs, transformations, and phrase roles. It captures what a melody is doing, not exact performance detail.
 
@@ -9,17 +9,19 @@ It captures melodic function, motivic transformations, conversational structure,
 
 ```text
 MEL ::= <MotifDef>+ <Phrase>
-MotifDef ::= <Identifier> ":" "[" <Degrees> "]"
+MotifDef ::= <Identifier> "(" <Degrees> ")"
 Identifier ::= <Letter> ["'"]*
-Phrase ::= "[" <MotifInstance>+ "]"
+Phrase ::= "(" <MotifInstance>+ ")"
 MotifInstance ::= <Identifier> [<Transformation>+] [<Role>]
 ```
 
-Example: `A : [1 b3 4] [A? A←!]`
+Example: `A (1 b3 4) (A? A←!)`
 
 Motif definitions come first. The phrase then names those motifs and marks how each one behaves.
 
-Identifiers are letters with optional apostrophe suffixes. Uppercase is standard notation; lowercase is useful for live shorthand. `A' : [4 4 4 b3 1]` defines a named variant of `A`.
+A motif definition has an identifier before its parentheses. A phrase contains motif references inside parentheses.
+
+Identifiers are letters with optional apostrophe suffixes. Uppercase is standard notation; lowercase is useful for live shorthand. `A' (4 4 4 b3 1)` defines a named variant of `A`.
 
 The apostrophe has two meanings depending on where it appears:
 
@@ -73,21 +75,20 @@ Transformations apply left to right. `A←'` means reverse, then vary.
 Live mode is for quick capture while listening.
 
 - Use lowercase identifiers for quick motif names: `a`, `b`, `c`.
-- Omit brackets in simple chains if the reading is unambiguous.
+- Omit phrase parentheses in simple chains if the reading is unambiguous. Keep parentheses around motif degrees.
 - Use ASCII accidentals while typing: `b3`, `#4`.
 - Keep one role per motif instance.
 
-Example: `a:1 b3 4  a? a←!` is equivalent to `A : [1 b3 4] [A? A←!]`.
+Example: `a (1 b3 4)  a? a←!` is equivalent to `A (1 b3 4) (A? A←!)`.
 
 ## Examples
 
 ### Call/Response
 
 ```text
-A  : [1 b3 4]
-A← : [4 b3 1]
+A (1 b3 4)
 
-[A? A←!]
+(A? A←!)
 ```
 
 Songs:
@@ -96,10 +97,9 @@ Songs:
 * Verse of "Way Maker" (Leeland)
 
 ```text
-A  : [1 b2 3]
-A← : [3 b2 1]
+A (1 b2 3)
 
-[A? A←!]
+(A? A←!)
 ```
 
 Songs:
@@ -108,14 +108,14 @@ Songs:
 ### Bell/Arch
 
 ```text
-A  : [1 b3 5 b6 5 b3 1]
+A (1 b3 5 b6 5 b3 1)
 ```
 
 Songs:
 * Verse of "Dexter's Laboratory"
 
 ```text
-A  : [1 b3 4 5 4 b3 1]
+A (1 b3 4 5 4 b3 1)
 ```
 
 Songs:
@@ -124,8 +124,8 @@ Songs:
 ### Broken Bell/Arch
 
 ```text
-A : [1 1 5 5 6 6 5]
-B : [4 4 3 3 2 2 1]
+A (1 1 5 5 6 6 5)
+B (4 4 3 3 2 2 1)
 ```
 
 Songs:
@@ -137,21 +137,21 @@ Songs:
 ### Akatsuki Theme
 
 ```text
-A : [1 5 4 b6 4 5]
-B : [b3 4 5 4 2 1]
+A (1 5 4 b6 4 5)
+B (b3 4 5 4 2 1)
 ```
 
 ### Viens On S'arrange
 
 ```text
-A : [b3 2 b3 4 5 b6 5]
-B : [4 5 b6 2 b3 4 b3]
+A (b3 2 b3 4 5 b6 5)
+B (4 5 b6 2 b3 4 b3)
 ```
 
 ### Dies Irae
 
 ```text
-A : [b3 2 b3 1 2 7↓ 1 1]
+A (b3 2 b3 1 2 7↓ 1 1)
 ```
 
 ### The Terminator Theme
@@ -159,21 +159,21 @@ A : [b3 2 b3 1 2 7↓ 1 1]
 "The Terminator Theme" (Brad Fiedel):
 
 ```text
-A  : [1 2 b3]
-B  : [2 b7↓ b3↓]
-B' : [2 b7↓ 5 4]
-B' : [2 b7↓ 4↓]
-A← : [b3↓ 1↓]
-A← : [b3↓ 2↓ 1↓]
+A (1 2 b3)
+B (2 b7↓ b3↓)
+B' (2 b7↓ 5 4)
+B'' (2 b7↓ 4↓)
+A' (b3↓ 1↓)
+A'' (b3↓ 2↓ 1↓)
 
-[A? B! A? B'! A? B'! A←> A←=]
+(A? B! A? B'! A? B''! A'> A''=)
 ```
 
 ### Parallel Movements
 
 ```text
-A : [1 4 b4]
-B : [7↓ 2 1]
+A (1 4 b4)
+B (7↓ 2 1)
 ```
 
 Songs:
@@ -181,8 +181,8 @@ Songs:
 
 ## Quick Reference
 
-- `A : [1 b3 4]`: Define motif `A`.
-- `A' : [4 4 4 b3 1]`: Define motif variant `A'`.
+- `A (1 b3 4)`: Define motif `A`.
+- `A' (4 4 4 b3 1)`: Define motif variant `A'`.
 - `A?`: Motif `A` as a question.
 - `A!`: Motif `A` as an answer.
 - `A~`: Motif `A` as a comment.
